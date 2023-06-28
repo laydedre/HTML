@@ -1,19 +1,38 @@
-h1 {
-    color: blue;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
 }
 
-p {
-    color: rgb(132, 0, 255);
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
 }
 
-h3 {
-    color: aqua;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-#aula {
-    color: red;
+nav ul li {
+    display: inline;
+    margin-right: 10px;
 }
 
-label {
-    background-color: rgb(255, 145, 0);
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
